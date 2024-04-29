@@ -16,6 +16,7 @@ body {
     font-style: normal;
     background: #F3E5D7;
     padding: 40px 32px;
+    line-height: 25px;
    
 }
 
@@ -77,14 +78,34 @@ body {
 }
 
 .ingredients {
-    margin: 0;
-
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid  #E3DDD7;
 }
 
 .ingredients h2 {
     color: #854632;
+    margin-bottom: 25px;
+}
+
+.ingredients ul li p{
+    color: #5F564D;
+}
+
+.ingredients ul {
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
 
 .ingredients ul li {
     color: #854632;
+}
+
+.instructions {
+    border-bottom: 1px solid  #E3DDD7;
+}
+
+.instructions h2 {
+    color: #854632;
+    margin-bottom: 25px;
 }
