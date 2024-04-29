@@ -17,6 +17,8 @@ body {
     background-color: #F3E5D7;
     padding: 40px 32px;
     line-height: 25px;
+    max-width: max-content;
+    margin: auto;
    
 }
 
