@@ -15,17 +15,22 @@ body {
     font-weight: <weight>;
     font-style: normal;
     background: #F3E5D7;
+    padding: 40px 32px;
    
+}
+
+header {
+    margin: 40px;
 }
 
 .background {
     background-color: white;
     border-radius: 24px;
+    max-width: 740px;
 }
 
 .photo {
-    width: 656px;
-    height: 300px;
+    width: fit-content;
     border-radius: 12px;
 }
 
@@ -33,5 +38,37 @@ body {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    padding: 40px 32px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    color: #312E2C;
+}
+
+.title { /*an margin ak */
+    margin-top: 40px;
+    margin-bottom: 32px;
+    color: #5F564D;
+}
+
+.preparation {
+    padding: 32 px;
+    background-color: #FFF7FB;
+    border-radius: 12px
+}
+
+.preparation h3 {
+    color: #7A284E;
+
+}
+
+.preparation ul {
+    margin-left:20px;
+}
+
+.preparation ul li p {
+    color: #5F564D;
+    line-height: 30px;
+}
+
+.preparation ul li {
+    color: #7A284E;
 }
