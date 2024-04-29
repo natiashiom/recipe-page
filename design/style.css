@@ -19,8 +19,11 @@ body {
    
 }
 
-header {
-    margin: 40px;
+#photo {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
 
 .background {
@@ -29,10 +32,6 @@ header {
     max-width: 740px;
 }
 
-.photo {
-    width: fit-content;
-    border-radius: 12px;
-}
 
 #bigtitle {
     font-family: "Young Serif", serif;
@@ -50,25 +49,42 @@ header {
 }
 
 .preparation {
-    padding: 32 px;
+    padding-top:  32 px;
     background-color: #FFF7FB;
     border-radius: 12px
 }
 
 .preparation h3 {
     color: #7A284E;
-
+    margin: 20px;
+    padding: 10px;
+    
 }
 
 .preparation ul {
-    margin-left:20px;
+    margin-left:40px;
 }
 
 .preparation ul li p {
     color: #5F564D;
     line-height: 30px;
+    
 }
 
 .preparation ul li {
     color: #7A284E;
+    margin: 10px;
+}
+
+.ingredients {
+    margin: 0;
+
+}
+
+.ingredients h2 {
+    color: #854632;
+}
+
+.ingredients ul li {
+    color: #854632;
 }
