@@ -14,7 +14,7 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background: #F3E5D7;
+    background-color: #F3E5D7;
     padding: 40px 32px;
     line-height: 25px;
    
@@ -38,13 +38,14 @@ body {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 40px;
+    font-size: 35px;
+    margin-top: 32px;
     margin-bottom: 32px;
     color: #312E2C;
 }
 
-.title { /*an margin ak */
-    margin-top: 40px;
+.title { 
+    margin-top: 32px;
     margin-bottom: 32px;
     color: #5F564D;
 }
@@ -108,4 +109,48 @@ body {
 .instructions h2 {
     color: #854632;
     margin-bottom: 25px;
+}
+
+.instructions ol li p {
+    color: #5F564D;
+}
+
+.instructions ol {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.instructions ol li {
+    color: #854632;
+}
+
+.nutrition {
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.nutrition h2 {
+    color: #854632;
+    margin-bottom: 25px;
+
+}
+
+.nutrition p{
+    color: #5F564D;
+}
+
+.values {
+    padding: 32px;
+    border-bottom: 1px solid #E3DDD7;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.values p:first-child {
+    color: #5F564D;
+}
+
+.values p {
+    color: #854632;
 }
